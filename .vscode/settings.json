@@ -1,0 +1,8 @@
+{
+    "terminal.explorerKind": "external",
+    "editor.wordWrap": "on",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingDelete": "always",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.minimap.enabled": false
+}

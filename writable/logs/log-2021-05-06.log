@@ -1,0 +1,63 @@
+CRITICAL - 2021-05-06 03:43:48 --> Cannot declare class App\Controllers\Barang, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 03:44:18 --> Cannot declare class App\Controllers\Barang, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 03:44:20 --> Cannot declare class App\Controllers\Barang, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-06 03:44:44 --> Class "App\Controllers\Tna_model" not found
+#0 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Tna->index()
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tna))
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-06 03:45:08 --> Call to undefined method App\Models\Barang_model::getTna
+#0 C:\xampp\htdocs\santrikoding\app\Controllers\Tna.php(16): CodeIgniter\Model->__call('getTna', Array)
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Tna->index()
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tna))
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-06 03:45:37 --> Undefined variable $jadwal
+#0 C:\xampp\htdocs\santrikoding\app\Views\tna\v_tna.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tna/v_tna', Array, true)
+#4 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_content.php(14): view('tna/v_tna')
+#5 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_conte...', Array, true)
+#8 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_wrapper.php(5): view('layouts/v_conte...')
+#9 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_wrapp...', Array, true)
+#12 C:\xampp\htdocs\santrikoding\app\Controllers\Tna.php(18): view('layouts/v_wrapp...', Array)
+#13 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Tna->index()
+#14 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tna))
+#15 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+CRITICAL - 2021-05-06 03:46:17 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('tna/v_tna', Array, true)
+#3 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_content.php(14): view('tna/v_tna')
+#4 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_conte...', Array, true)
+#7 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_wrapper.php(5): view('layouts/v_conte...')
+#8 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_wrapp...', Array, true)
+#11 C:\xampp\htdocs\santrikoding\app\Controllers\Tna.php(18): view('layouts/v_wrapp...', Array)
+#12 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Tna->index()
+#13 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tna))
+#14 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#17 {main}

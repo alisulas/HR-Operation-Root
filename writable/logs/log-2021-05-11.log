@@ -1,0 +1,110 @@
+CRITICAL - 2021-05-11 02:35:23 --> Cannot declare class App\Controllers\Fakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:56 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:57 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:58 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:58 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:59 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:59 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:36:59 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:37 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:38 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:39 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:39 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:40 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:40 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-11 02:37:40 --> Cannot declare class App\Models\ModelFakultas, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-05-11 02:38:13 --> mysqli_sql_exception: Table 'db_skeleton.tbl_gedung' doesn't exist in C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\santrikoding\app\Models\ModelGedung.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\santrikoding\app\Controllers\Gedung.php(24): App\Models\ModelGedung->allData()
+#6 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Gedung->index()
+#7 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+#8 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-11 02:38:13 --> Table 'db_skeleton.tbl_gedung' doesn't exist
+#0 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\santrikoding\app\Models\ModelGedung.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\santrikoding\app\Controllers\Gedung.php(24): App\Models\ModelGedung->allData()
+#6 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Gedung->index()
+#7 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+#8 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-11 02:40:31 --> Invalid file: admin/v_gedung.php
+#0 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_gedung....')
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/v_gedung', Array, true)
+#2 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_content.php(14): view('admin/v_gedung')
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_conte...', Array, true)
+#6 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_wrapper.php(5): view('layouts/v_conte...')
+#7 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_wrapp...', Array, true)
+#10 C:\xampp\htdocs\santrikoding\app\Controllers\Gedung.php(27): view('layouts/v_wrapp...', Array)
+#11 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Gedung->index()
+#12 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+#13 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2021-05-11 02:41:10 --> Undefined variable $fakultas
+#0 C:\xampp\htdocs\santrikoding\app\Views\admin\v_gedung.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('admin/v_gedung', Array, true)
+#4 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_content.php(14): view('admin/v_gedung')
+#5 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_conte...', Array, true)
+#8 C:\xampp\htdocs\santrikoding\app\Views\layouts\v_wrapper.php(5): view('layouts/v_conte...')
+#9 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('layouts/v_wrapp...', Array, true)
+#12 C:\xampp\htdocs\santrikoding\app\Controllers\Gedung.php(27): view('layouts/v_wrapp...', Array)
+#13 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Gedung->index()
+#14 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+#15 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\santrikoding\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\santrikoding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#18 {main}
